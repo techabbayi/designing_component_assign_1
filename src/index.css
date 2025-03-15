@@ -1,47 +1,54 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 80px;
+}
+
 .user-card {
   display: flex;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  background-color: #23b1b4;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  width: 900px;
   padding: 16px;
   margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-.user-card__photo {
+.photo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-right: 20px;
 }
 
-.user-card__details {
+.details {
   display: flex;
   flex-direction: column;
 }
 
-.user-card__name {
-  font-size: 1.2em;
+.name {
+  font-size: 1.9em;
   margin-bottom: 8px;
-  color: #333;
+  color: #e55f11;
 }
 
-.user-card__email,
-.user-card__phone,
-.user-card__address {
+.email,
+.phone,
+.address {
   margin: 4px 0;
-  color: #555;
+  color: #252d77;
 }
 
-.user-card__email {
+.email {
   font-weight: bold;
 }
 
-.user-card__phone {
+.phone {
   font-weight: bold;
 }
 
-.user-card__address {
+.address {
   font-style: italic;
 }
